@@ -22,4 +22,4 @@ let auth = (req,res,next) =>{
         // 유저가 존재하면 인증 Okay else No
 }
 
-module.exports = {auth}
+module.exports = {auth} 
