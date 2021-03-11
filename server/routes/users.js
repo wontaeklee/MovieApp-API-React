@@ -27,7 +27,7 @@ router.post("/register", (req, res) => {
 
     user.save((err, doc) => {
         if (err) return res.json({ success: false, err });
-        return res.status(200).json({
+        return res.status(200).json({ 
             success: true
         });
     });
