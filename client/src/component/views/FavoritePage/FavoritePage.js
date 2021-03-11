@@ -82,6 +82,6 @@ function FavoritePage() {
             </table>
         </div>
     )
-}
+} 
 
 export default FavoritePage
