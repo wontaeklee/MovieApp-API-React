@@ -27,4 +27,4 @@ function MainImage(props) {
 }
 
 
-export default MainImage
+export default MainImage 
