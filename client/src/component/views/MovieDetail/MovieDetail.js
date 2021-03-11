@@ -1,6 +1,6 @@
 import { Button, Row } from 'antd';
 import React, {useEffect, useState} from 'react'
-import { withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom'; 
 import { API_KEY, API_URL, IMAGE_BASE_URL } from '../../../Config'
 import MainImage from '../LandingPage/Sections/MainImage'
 import MovieInfo from '../MovieDetail/Sections/MovieInfo'
