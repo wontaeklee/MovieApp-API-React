@@ -24,3 +24,4 @@ function GridCard(props) {
 
 }
 export default GridCard
+ 
