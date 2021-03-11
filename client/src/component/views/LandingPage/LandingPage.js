@@ -49,7 +49,7 @@ function LandingPage(props) {
                 <Row gutter={[16,16]}>
                     {Movies && Movies.map((movie,index)=>(
                         <React.Fragment key={index}>
-                            <GridCards style={{width: '100%', height: '320px'}}image={movie.poster_path ? `${IMAGE_BASE_URL}w500${movie.poster_path}` : null}
+                            <GridCards landingpage style={{width: '100%', height: '320px'}} movieId={movie.id} image={movie.poster_path ? `${IMAGE_BASE_URL}w500${movie.poster_path}` : null}
                              />
                         </React.Fragment>
                     ))}

@@ -1,4 +1,3 @@
-import axios from 'axios'
 import React, {useState} from 'react'
 import {useDispatch} from 'react-redux'
 import {loginUser} from '../../../_action/user_action'
@@ -30,7 +29,8 @@ function LoginPage(props) {
         
     dispatch(loginUser(body))
     .then(response => {
-        if(response.payload.loginSuceess){
+        if(response.payload.loginSuccess){
+            window.localStorage.setItem('userId', response.payload.userId);
             props.history.push('/')
         }else{
             alert('Error');
