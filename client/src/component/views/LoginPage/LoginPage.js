@@ -4,7 +4,7 @@ import {loginUser} from '../../../_action/user_action'
 import { withRouter } from 'react-router-dom'
 function LoginPage(props) {
 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch() 
 
     const [Email, setEmail] = useState("")
     const [Password, setPassword] = useState("")
