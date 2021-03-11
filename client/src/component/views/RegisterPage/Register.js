@@ -20,7 +20,7 @@ function Register(props) {
     const onPasswordHandler = (event) =>{
         setPassword(event.currentTarget.value)
 
-    }
+    } 
 
     const onNameHandler = (event) =>{
         setName(event.currentTarget.value)
