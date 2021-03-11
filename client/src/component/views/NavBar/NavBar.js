@@ -35,7 +35,7 @@ function NavBar() {
         <Drawer
           title="Basic Drawer"
           placement="right"
-          className="menu_drawer"
+          className="menu_drawer" 
           closable={false}
           onClose={onClose}
           visible={visible}
