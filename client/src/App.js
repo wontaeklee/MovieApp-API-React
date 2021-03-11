@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Auth from "../src/hoc/auth";
 // pages for this product
 import LandingPage from "./component/views/LandingPage/LandingPage";
-import NavBar from "./component/views/NavBar/NavBar";
+import NavBar from "./component/views/NavBar/NavBar"; 
 import MovieDetail from './component/views/MovieDetail/MovieDetail'
 import LoginPage from './component/views/LoginPage/LoginPage'
 import registerPage from './component/views/RegisterPage/Register'
