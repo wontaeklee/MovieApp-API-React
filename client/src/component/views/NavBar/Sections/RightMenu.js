@@ -38,7 +38,7 @@ function RightMenu(props) {
         </Menu.Item>
       </Menu>
     )
-  }
+  } 
 }
 
 export default withRouter(RightMenu);
